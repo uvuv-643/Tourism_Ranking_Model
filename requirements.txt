@@ -1,0 +1,4 @@
+redis
+torch
+torchvision
+python-dotenv

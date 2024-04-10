@@ -5,19 +5,14 @@ from time import sleep
 import dotenv
 import redis
 
-
-class TextNN:
-
-    def __init__(self):
-        self.model = 1
-
-    def predict(self, text):
-        return {
-            'text': text,
-        }
+from text_to_object_model import TextModel
 
 
 def main():
+
+    text_model = TextModel()
+    print("Model loaded")
+
     dotenv.load_dotenv()
     redis_connection = redis.Redis(host=os.getenv('REDIS_HOST'), port=6379, db=0, password=os.getenv('REDIS_PASSWORD'))
     redis_pubsub_photos = redis_connection.pubsub()
@@ -37,9 +32,13 @@ def main():
             message_text = redis_pubsub_texts.get_message(ignore_subscribe_messages=True)
             if message_text is not None and message_text['data']:
                 message_id = json.loads(message_text['data'])['id']
-                redis_connection.publish(f"text_response_{message_id}", "yooou)")
+                query = json.loads(message_text['data'])['content']
+                city_id = json.loads(message_text['data'])['city_id']
+                predicted = text_model.predict(query, int(city_id))
+                redis_connection.publish(f"text_response_{message_id}", json.dumps(predicted, ensure_ascii=False))
         except Exception as e:
-            logging.error("something went wrong", e)
+            raise e
+
         sleep(0.1)
 
 

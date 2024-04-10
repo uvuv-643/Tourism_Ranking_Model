@@ -1,0 +1,401 @@
+,XID,Name,Kind,City,OSM,WikiData,Rate,Lon,Lat
+0,W38411380,Динамо,"sport,architecture,historic_architecture,interesting_places,stadiums,other_buildings_and_structures",Екатеринбург,way/38411380,Q37996725,3h,60.600349,56.845398
+1,N2885181131,№32 Дом обороны,"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Екатеринбург,node/2885181131,Q55209768,3h,60.601315,56.834167
+2,W38581890,Дом обороны,"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Екатеринбург,way/38581890,Q55209768,3h,60.602409,56.835133
+3,N1930476141,№28 Здание городской электростанции «Луч»,"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Екатеринбург,node/1930476141,Q55154121,3h,60.60743,56.833691
+4,N3002726097,№27 Дом Г.Н. Скрябина,"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Екатеринбург,node/3002726097,Q55232375,3h,60.607075,56.834225
+5,N2475691784,Литературная жизнь Урала XX века,"cultural,museums,interesting_places,other_museums",Екатеринбург,node/2475691784,Q4306077,3h,60.606716,56.842705
+6,W55235295,Дом-музей Бажова,"biographical_museums,cultural,museums,children_museums,interesting_places",Екатеринбург,way/55235295,Q4290214,3h,60.613415,56.818394
+7,N181286204,Театр кукол,"puppetries,cultural,cinemas,theatres_and_entertainments,interesting_places",Екатеринбург,node/181286204,Q4227893,3h,60.610809,56.839527
+8,W35090291,Харитоновский сад,"urban_environment,gardens_and_parks,cultural,interesting_places",Екатеринбург,way/35090291,Q4495944,3h,60.613251,56.846531
+9,W46993188,Храм в честь Вознесения Господня,"religion,churches,interesting_places,eastern_orthodox_churches",Екатеринбург,way/46993188,Q4500740,3h,60.612843,56.844761
+10,W43554808,Суворовское училище,"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Екатеринбург,way/43554808,Q4174329,3h,60.647209,56.845078
+11,W46866652,Свято-Троицкий Кафедральный собор,"religion,cathedrals,churches,interesting_places,eastern_orthodox_churches",Екатеринбург,way/46866652,Q4463552,3h,60.614399,56.827347
+12,N6511782886,Дом-музей Д. Н. Мамина-Сибиряка,"biographical_museums,cultural,museums,children_museums,interesting_places,art_galleries",Екатеринбург,node/6511782886,Q4263805,3h,60.607212,56.84132
+13,W59804414,Художественный Музей Эрнста Неизвестного,"cultural,museums,interesting_places,art_galleries",Екатеринбург,way/59804414,Q16714939,3h,60.603756,56.83168
+14,W948556954,Серго Орджоникидзе,"historic,monuments_and_memorials,interesting_places,monuments",Екатеринбург,way/948556954,Q107506739,3h,60.592449,56.885479
+15,N1779665538,Н. И. Кузнецову,"historic,monuments_and_memorials,interesting_places,monuments",Екатеринбург,node/1779665538,Q107538882,3h,60.577671,56.890465
+16,W166552564,Успенский собор на ВИЗе,"religion,churches,interesting_places,eastern_orthodox_churches",Екатеринбург,way/166552564,Q54888981,3h,60.556461,56.839237
+17,W922392676,Царский мост,"bridges,architecture,interesting_places,other_bridges",Екатеринбург,way/922392676,Q4503250,3h,60.613163,56.823517
+18,N5755762950,Дом печати (Екатеринбург),"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Екатеринбург,node/5755762950,Q13668404,3h,60.61459,56.839989
+19,N457304363,Музей изобразительных искусств,"cultural,museums,interesting_places,art_galleries",Екатеринбург,node/457304363,Q4174318,3h,60.603241,56.835182
+20,W50837336,Александро-Невский собор,"religion,churches,interesting_places,eastern_orthodox_churches",Екатеринбург,way/50837336,Q4061042,3h,60.598534,56.822884
+21,W947205778,"Здание бывшей гостиницы ""Мадрид""","architecture,historic_architecture,accomodations,interesting_places,other_hotels,other_buildings_and_structures",Екатеринбург,way/947205778,Q106150540,3h,60.588634,56.886154
+22,N4914245843,Екатеринбургский музей изобразительных искусств,"cultural,museums,interesting_places,art_galleries",Екатеринбург,node/4914245843,Q4174318,3h,60.596317,56.832947
+23,W313780001,Уральский государственный медицинский университет,"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Екатеринбург,way/313780001,Q4476708,3h,60.576317,56.832996
+24,W587989335,Центральный стадион,"sport,architecture,historic_architecture,interesting_places,stadiums,other_buildings_and_structures",Екатеринбург,way/587989335,Q190779,3h,60.573956,56.832283
+25,R152269,Уральская государственная консерватория,"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Екатеринбург,relation/152269,Q4476712,3h,60.599995,56.837444
+26,N3002726091,№18 Фотографический музей «Дом Метенкова»,"cultural,museums,interesting_places,other_museums",Екатеринбург,node/3002726091,Q4165339,3h,60.610767,56.841969
+27,W128158539,Преображенская церковь на Уктусе,"religion,churches,interesting_places,eastern_orthodox_churches",Екатеринбург,way/128158539,Q3935233,3h,60.649147,56.780872
+28,N964623543,Уральский геологический музей,"cultural,museums,science_museums,interesting_places",Екатеринбург,node/964623543,Q4476747,3h,60.59547,56.826492
+29,N474950055,Дом Метенкова,"cultural,museums,interesting_places,other_museums",Екатеринбург,node/474950055,Q4165339,3h,60.610954,56.841991
+30,W62228491,Гимназия № 9,"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Екатеринбург,way/62228491,Q15298893,3h,60.600273,56.838516
+31,W52170650,Второй Дом Советов,"other,unclassified_objects,interesting_places,historic_object",Екатеринбург,way/52170650,Q4128054,3h,60.59655,56.840122
+32,N6962835349,Водонапорная башня,"cultural,museums,interesting_places,other_museums",Екатеринбург,node/6962835349,Q16630837,3h,60.605469,56.837891
+33,W18077882,Театр оперы и балета,"cultural,theatres_and_entertainments,interesting_places,opera_houses",Екатеринбург,way/18077882,Q4174311,3h,60.616631,56.838799
+34,N454056918,Малышеву,"historic,monuments_and_memorials,urban_environment,cultural,interesting_places,sculptures,monuments",Екатеринбург,node/454056918,Q107573037,3h,60.604321,56.834213
+35,N454103127,Памятник Я.М. Свердлову,"historic,monuments_and_memorials,urban_environment,cultural,interesting_places,sculptures,monuments",Екатеринбург,node/454103127,Q11823227,3h,60.616417,56.839813
+36,N474950570,Комсомолу Урала,"historic,monuments_and_memorials,urban_environment,cultural,interesting_places,sculptures,monuments",Екатеринбург,node/474950570,Q107583229,3h,60.610554,56.844635
+37,N192224751,Ленин,"historic,monuments_and_memorials,urban_environment,cultural,interesting_places,sculptures,monuments",Екатеринбург,node/192224751,Q55584659,3h,60.596291,56.83786
+38,N504394251,Шарташские каменные палатки,"view_points,other,mountain_peaks,rock_formations,natural_monuments,geological_formations,natural,interesting_places,nature_reserves",Екатеринбург,node/504394251,Q2036269,3h,60.678642,56.84304
+39,N3002726100,№34 Дом контор,"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Екатеринбург,node/3002726100,Q42296354,3h,60.599091,56.83392
+40,N210073292,Александро-Невская часовня,"religion,churches,interesting_places,other_churches",Екатеринбург,node/210073292,Q54901778,3h,60.602776,56.828709
+41,N3002726092,№19 Музей истории Екатеринбурга,"cultural,museums,interesting_places,other_museums",Екатеринбург,node/3002726092,Q4306294,3h,60.611122,56.840714
+42,N6408389385,Городок Чекистов,"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Екатеринбург,node/6408389385,Q4145398,3h,60.620918,56.840729
+43,W127712171,Иоанно-Предтеченский Кафедральный собор,"religion,cathedrals,churches,interesting_places,eastern_orthodox_churches",Екатеринбург,way/127712171,Q4202547,3h,60.574745,56.829426
+44,W52360451,Дом контор,"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Екатеринбург,way/52360451,Q42296354,3h,60.599705,56.833614
+45,N694080110,Уральский государственный колледж имени И.И. Ползунова,"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Екатеринбург,node/694080110,Q4476751,3h,60.625992,56.823845
+46,W47807305,Площадь 1905 года,"urban_environment,cultural,interesting_places,squares",Екатеринбург,way/47807305,Q2837740,3h,60.597221,56.837864
+47,N474950054,Музей истории Екатеринбурга,"cultural,museums,interesting_places,history_museums",Екатеринбург,node/474950054,Q4306294,3h,60.611423,56.840691
+48,N2324423104,Музей кукол и детской книги «Страна чудес»,"cultural,museums,children_museums,interesting_places",Екатеринбург,node/2324423104,Q4306371,3h,60.606445,56.84338
+49,W69841318,"Музей истории, науки и техники Свердловской железной дороги","railway_stations,industrial_facilities,cultural,museums,interesting_places,other_museums",Екатеринбург,way/69841318,Q4441173,3h,60.600773,56.858772
+50,N5402950542,Свердловское художественное училище им. И. Д. Шадра,"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Екатеринбург,node/5402950542,Q4174330,3h,60.610859,56.835098
+51,N415531606,№12 Дом Севастьянова,"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Екатеринбург,node/415531606,Q4165394,3h,60.605457,56.83876
+52,N763386009,№17 Свердловская государственная академическая филармония,"theatres_and_entertainments,concert_halls,cultural,interesting_places",Екатеринбург,node/763386009,Q4410142,3h,60.610157,56.842163
+53,N802262331,№16 Усадьба Расторгуева-Харитонова,"architecture,historic_architecture,interesting_places,manor_houses",Екатеринбург,node/802262331,Q1984395,3h,60.609535,56.844151
+54,W46990846,Усадьба Расторгуевых — Харитоновых,"architecture,historic_architecture,interesting_places,manor_houses",Екатеринбург,way/46990846,Q1984395,3h,60.611515,56.84547
+55,W64238516,Уральский политехнический колледж,"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Екатеринбург,way/64238516,Q4476776,3h,60.634628,56.842449
+56,N2587522630,Музей плодового садоводства Среднего Урала,"cultural,museums,interesting_places,history_museums",Екатеринбург,node/2587522630,Q55231875,3h,60.586826,56.842674
+57,N972487885,Филармония,"theatres_and_entertainments,concert_halls,cultural,interesting_places,music_venues",Екатеринбург,node/972487885,Q4410142,3h,60.610664,56.842724
+58,R3784162,Дом-музей Ф.М. Решетникова,"cultural,museums,children_museums,interesting_places,art_galleries",Екатеринбург,relation/3784162,Q4263806,3h,60.606873,56.842419
+59,W922392677,Каменный мост,"bridges,architecture,interesting_places,other_bridges",Екатеринбург,way/922392677,Q13359366,3h,60.604752,56.834576
+60,N898963079,№15 Храм-на-Крови,"religion,churches,interesting_places,eastern_orthodox_churches",Екатеринбург,node/898963079,Q631979,3h,60.607666,56.844257
+61,W46993203,Храм на Крови,"religion,churches,interesting_places,eastern_orthodox_churches",Екатеринбург,way/46993203,Q631979,3h,60.608952,56.844421
+62,W150512875,Белая башня,"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Екатеринбург,way/150512875,Q4081645,3h,60.572338,56.893166
+63,N459436046,Добровольцам-танкистам,"historic,monuments_and_memorials,burial_places,interesting_places,war_memorials,monuments",Екатеринбург,node/459436046,Q4343452,3h,60.606125,56.857285
+64,R3464822,Ново-Тихвинский монастырь,"religion,monasteries,interesting_places",Екатеринбург,relation/3464822,Q4322970,3h,60.598354,56.823097
+65,N533609312,№29 Дом В.И. Чувильдина,"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Екатеринбург,node/533609312,Q27921892,3h,60.607689,56.832268
+66,N474949599,Свердловский областной краеведческий музей,"science_museums,cultural,museums,interesting_places,history_museums,local_museums,art_galleries",Екатеринбург,node/474949599,Q4410161,3h,60.602917,56.834114
+67,N474946827,Театр музыкальной комедии,"cultural,theatres_and_entertainments,interesting_places,music_venues",Екатеринбург,node/474946827,Q4410151,3h,60.611748,56.839645
+68,W52170640,Дом Актёра,"architecture,historic_architecture,theatres_and_entertainments,cultural,interesting_places,manor_houses,other_theatres",Екатеринбург,way/52170640,Q4165449,3h,60.59795,56.838634
+69,W59804593,Доходный дом купца Чувильдина,"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Екатеринбург,way/59804593,Q27921892,3h,60.607727,56.832176
+70,W38753316,улица Февральской Революции,"cultural,urban_environment,interesting_places,squares",Екатеринбург,way/38753316,Q4474328,3h,60.588932,56.842964
+71,W438910142,улица Февральской Революции,"cultural,urban_environment,interesting_places,squares",Екатеринбург,way/438910142,Q4474328,3h,60.593147,56.841328
+72,W34939465,улица Чернышевского,"cultural,urban_environment,interesting_places,squares",Екатеринбург,way/34939465,Q4474515,3h,60.601933,56.832638
+73,W759609793,улица Добролюбова,"cultural,urban_environment,interesting_places,squares",Екатеринбург,way/759609793,Q15954283,3h,60.603771,56.832561
+74,W34939464,улица Добролюбова,"cultural,urban_environment,interesting_places,squares",Екатеринбург,way/34939464,Q15954283,3h,60.603172,56.83432
+75,W759609794,улица Добролюбова,"cultural,urban_environment,interesting_places,squares",Екатеринбург,way/759609794,Q15954283,3h,60.60318,56.834293
+76,Q107585439,Мемориал памяти Уральских коммунаров,"historic,monuments_and_memorials,interesting_places,monuments",Екатеринбург,,Q107585439,3h,60.578514,56.835789
+77,Q4174314,Екатеринбургский завод,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Екатеринбург,,Q4174314,3h,60.60577,56.836639
+78,Q4476791,Уральский турбинный завод,"other,unclassified_objects,interesting_places,historic_object",Екатеринбург,,Q4476791,3h,60.64011,56.877754
+79,Q4477566,Усадьба Железнова,"architecture,historic_architecture,interesting_places,manor_houses",Екатеринбург,,Q4477566,3h,60.612778,56.826111
+80,Q27890562,Усадьба ротмистра Переяславцева,"architecture,historic_architecture,interesting_places,manor_houses",Екатеринбург,,Q27890562,3h,60.611946,56.836205
+81,Q97591769,Комплекс штаба военного округа,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Екатеринбург,,Q97591769,3h,60.624306,56.841331
+82,Q1851014,Уральский государственный университет имени А. М. Горького,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Екатеринбург,,Q1851014,3h,60.616798,56.840302
+83,Q1938341,Уральский государственный технический университет,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Екатеринбург,,Q1938341,3h,60.654282,56.844051
+84,Q4365466,Площадь 1-й Пятилетки,"cultural,urban_environment,interesting_places,squares",Екатеринбург,,Q4365466,3h,60.592091,56.88612
+85,Q4477575,Усадьба Тарасова,"architecture,historic_architecture,interesting_places,manor_houses",Екатеринбург,,Q4477575,3h,60.606667,56.839722
+86,Q19615085,Дом Артистов,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Екатеринбург,,Q19615085,3h,60.614166,56.839169
+87,Q27888113,Дом Э. Ф. Филитц,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Екатеринбург,,Q27888113,3h,60.620441,56.833843
+88,Q27890571,Здание пансиона и церкви Святой Магдалины при первой женской гимназии,"other,unclassified_objects,interesting_places,historic_object",Екатеринбург,,Q27890571,3h,60.610462,56.837254
+89,Q55413263,Дом Бревновых,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Екатеринбург,,Q55413263,3h,60.569229,56.839493
+90,Q56210596,Дом Маева,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Екатеринбург,,Q56210596,3h,60.613888,56.843056
+91,Q108196461,Дом Промышленности,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Екатеринбург,,Q108196461,3h,60.620193,56.837139
+92,Q108406301,Дом Степанова,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Екатеринбург,,Q108406301,3h,60.606934,56.835983
+93,Q4240385,Крестовоздвиженская церковь (Екатеринбург),"religion,churches,interesting_places,eastern_orthodox_churches",Екатеринбург,,Q4240385,3h,60.622898,56.831982
+94,Q4306075,Музей «Литературная жизнь Урала XIX века»,"museums,cultural,children_museums,interesting_places",Екатеринбург,,Q4306075,3h,60.607609,56.843414
+95,Q4411412,Свято-Никольский храм (Екатеринбург),"religion,churches,interesting_places,other_churches",Екатеринбург,,Q4411412,3h,60.595821,56.826569
+96,Q4504106,Центральная городская библиотека им. А. И. Герцена,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Екатеринбург,,Q4504106,3h,60.612167,56.821865
+97,Q28381390,Дом Гайдара,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Екатеринбург,,Q28381390,3h,60.591591,56.845341
+98,Q50359307,Дом дворянки Е. О. Селивановой,"other,unclassified_objects,interesting_places,historic_object",Екатеринбург,,Q50359307,3h,60.609085,56.840805
+99,Q55210808,Дом связи (Екатеринбург),"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Екатеринбург,,Q55210808,3h,60.608856,56.839352
+100,W148138980,Дом В. И. Смирнова,"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Нижний Новгород,way/148138980,Q97660371,3h,43.975361,56.314426
+101,W159088287,Памятник Ленину,"historic,monuments_and_memorials,urban_environment,cultural,interesting_places,sculptures,monuments",Нижний Новгород,way/159088287,Q55655312,3h,43.959465,56.326092
+102,R2906507,Северная башня,"towers,architecture,interesting_places,other_towers",Нижний Новгород,relation/2906507,Q51946123,3h,43.998028,56.328777
+103,R2906504,Никольская башня,"towers,architecture,fortifications,historic,interesting_places,other_towers,fortified_towers",Нижний Новгород,relation/2906504,Q51885222,3h,44.001396,56.325672
+104,W152110796,Дом архитектора,"cultural,museums,interesting_places,other_museums",Нижний Новгород,way/152110796,Q98381215,3h,44.009949,56.329483
+105,R4238217,Нижегородский государственный академический театр драмы им. М. Горького,"cultural,theatres_and_entertainments,interesting_places,music_venues",Нижний Новгород,relation/4238217,Q166474,3h,44.001335,56.324169
+106,N6629818520,Нижегородский кремль,"fortifications,historic,historical_places,cultural,museums,interesting_places,historic_districts,history_museums,kremlins",Нижний Новгород,node/6629818520,Q1550905,3h,44.002522,56.328667
+107,R13028362,Нижегородская соборная мечеть,"religion,mosques,interesting_places",Нижний Новгород,relation/13028362,Q4318635,3h,44.037556,56.323444
+108,R2906502,Нижегородский кремль,"fortifications,historic,historical_places,cultural,museums,interesting_places,historic_districts,other_museums,kremlins",Нижний Новгород,relation/2906502,Q1550905,3h,44.002106,56.328033
+109,W147129127,Домик Каширина,"cultural,museums,interesting_places,other_museums",Нижний Новгород,way/147129127,Q4165827,3h,43.990692,56.323921
+110,R2302969,Автозаводский парк культуры и отдыха,"urban_environment,gardens_and_parks,cultural,interesting_places",Нижний Новгород,relation/2302969,Q4056241,3h,43.854343,56.23904
+111,W159080177,Собор Александра Невского,"religion,cathedrals,churches,interesting_places,eastern_orthodox_churches",Нижний Новгород,way/159080177,Q726541,3h,43.971439,56.333679
+112,R2906508,Собор Архангела Михаила,"religion,cathedrals,churches,interesting_places,eastern_orthodox_churches",Нижний Новгород,relation/2906508,Q1365942,3h,44.001873,56.328293
+113,R4356826,Церковь в честь Рождества Богородицы,"religion,churches,interesting_places,other_churches",Нижний Новгород,relation/4356826,Q97678623,3h,43.755871,56.209595
+114,R2343568,Спасо-преображенская церковь,"religion,churches,interesting_places,other_churches",Нижний Новгород,relation/2343568,Q4430824,3h,43.933346,56.256714
+115,N5141071786,Дворец вице-губернатора,"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Нижний Новгород,node/5141071786,Q99622643,3h,44.003147,56.327217
+116,W35979423,Парк имени Кулибина,"urban_environment,gardens_and_parks,cultural,interesting_places",Нижний Новгород,way/35979423,Q4345232,3h,44.008858,56.315018
+117,R2013332,Церковь Воскресения Христова,"religion,churches,interesting_places,eastern_orthodox_churches",Нижний Новгород,relation/2013332,Q4126181,3h,43.978607,56.314247
+118,W147129128,Храм Сергия Радонежского,"religion,churches,interesting_places,eastern_orthodox_churches",Нижний Новгород,way/147129128,Q1508336,3h,43.987236,56.323441
+119,R5393060,Храм святителей Московских,"religion,churches,interesting_places,other_churches",Нижний Новгород,relation/5393060,Q4505287,3h,43.997238,56.312874
+120,N6765906237,Скоба,"architecture,historic_architecture,interesting_places,restaurants,foods,tourist_facilities,other_buildings_and_structures",Нижний Новгород,node/6765906237,Q85134186,3h,43.995026,56.329548
+121,N2295063247,Нижегородский Кремль,"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Нижний Новгород,node/2295063247,Q100270892,3h,44.005554,56.327255
+122,N4320825061,Дмитриевская башня,"towers,architecture,fortifications,historic,cultural,museums,interesting_places,other_museums,other_towers,fortified_towers",Нижний Новгород,node/4320825061,Q18406802,3h,44.005676,56.327045
+123,R9649962,Лицей № 82,"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Нижний Новгород,relation/9649962,Q4264363,3h,43.864075,56.349937
+124,R2906510,Часовая башня,"towers,architecture,interesting_places,other_towers",Нижний Новгород,relation/2906510,Q51885220,3h,43.998898,56.328785
+125,N2295063219,Горьковчане фронту,"historic,monuments_and_memorials,burial_places,interesting_places,other_burial_places,monuments",Нижний Новгород,node/2295063219,Q4290109,3h,44.005363,56.327061
+126,R2917120,Нижегородский государственный художественный музей,"national_museums,cultural,museums,interesting_places,art_galleries",Нижний Новгород,relation/2917120,Q4318653,3h,44.006405,56.329548
+127,R3022763,Рождественская церковь,"religion,churches,interesting_places,eastern_orthodox_churches",Нижний Новгород,relation/3022763,Q1574846,3h,43.984966,56.327251
+128,R2906499,Дмитровская башня,"towers,architecture,fortifications,historic,cultural,museums,interesting_places,other_museums,other_towers,fortified_towers",Нижний Новгород,relation/2906499,Q18406802,3h,44.005646,56.327095
+129,W151548233,Музей-квартира А.М. Горького,"biographical_museums,cultural,museums,interesting_places,art_galleries",Нижний Новгород,way/151548233,Q4306041,3h,44.018635,56.322784
+130,R1992689,Благовещенский монастырь,"religion,monasteries,interesting_places",Нижний Новгород,relation/1992689,Q4087775,3h,43.976791,56.323032
+131,W147551273,Благовещенский собор,"religion,cathedrals,monasteries,interesting_places",Нижний Новгород,way/147551273,Q4087775,3h,43.976471,56.322552
+132,W152696709,Нижегородское речное училище,"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Нижний Новгород,way/152696709,Q4318683,3h,44.015591,56.326916
+133,W28501972,Парк имени А.С. Пушкина,"urban_environment,gardens_and_parks,cultural,interesting_places",Нижний Новгород,way/28501972,Q4345262,3h,43.997265,56.309052
+134,R2906509,Тайницкая башня,"towers,architecture,fortifications,historic,interesting_places,other_towers,fortified_towers",Нижний Новгород,relation/2906509,Q51949859,3h,43.997246,56.327576
+135,R2059374,Монумент героям Волжской военной флотилии,"historic,monuments_and_memorials,interesting_places,monuments",Нижний Новгород,relation/2059374,Q4302191,3h,43.988407,56.329079
+136,N5141071785,Гарнизонная казарма,"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Нижний Новгород,node/5141071785,Q100701435,3h,44.004299,56.327614
+137,N1056966401,Памятник жертвам и мученикам революции 1905 года,"historic,monuments_and_memorials,interesting_places,monuments",Нижний Новгород,node/1056966401,Q4343468,3h,44.01601,56.316841
+138,W108727791,Домик Петра I,"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Нижний Новгород,way/108727791,Q4165829,3h,43.994991,56.325508
+139,R3368610,Государственный центральный банк,"architecture,historic_architecture,interesting_places,banks,bank,tourist_facilities,other_buildings_and_structures",Нижний Новгород,relation/3368610,Q4146786,3h,43.998787,56.32003
+140,N2295063253,Экспозиция «Подвиг народного единства»,"towers,architecture,cultural,museums,interesting_places,other_museums,other_towers",Нижний Новгород,node/2295063253,Q19692529,3h,43.999737,56.329956
+141,W152110807,Усадьба Рукавишниковых,"biographical_museums,architecture,historic_architecture,cultural,museums,interesting_places,manor_houses",Нижний Новгород,way/152110807,Q80028563,3h,44.016083,56.329319
+142,W151905928,Театр оперы и балета,"cultural,theatres_and_entertainments,interesting_places,music_venues,opera_houses",Нижний Новгород,way/151905928,Q172218,3h,44.017212,56.315525
+143,W219812603,Обелиск Минину и Пожарскому,"historic,monuments_and_memorials,urban_environment,cultural,interesting_places,sculptures,monuments",Нижний Новгород,way/219812603,Q4329133,3h,44.00243,56.32901
+144,W52464978,Церковь Знамения Божией Матери и святых Жен-Мироносиц,"religion,churches,interesting_places,eastern_orthodox_churches",Нижний Новгород,way/52464978,Q4504699,3h,43.995018,56.324314
+145,R2323263,Ивановская башня,"towers,architecture,fortifications,historic,cultural,museums,interesting_places,other_museums,other_towers,fortified_towers",Нижний Новгород,relation/2323263,Q19692529,3h,43.999634,56.329887
+146,W151905925,Нижегородский острог,"cultural,museums,interesting_places,museums_of_science_and_technology,history_museums,other_technology_museums",Нижний Новгород,way/151905925,Q4318666,3h,44.017006,56.317223
+147,R546053,Сормовский парк,"urban_environment,gardens_and_parks,cultural,interesting_places",Нижний Новгород,relation/546053,Q4429057,3h,43.856071,56.338352
+148,R2990812,Блиновский пассаж,"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Нижний Новгород,relation/2990812,Q79494225,3h,43.988136,56.32814
+149,W151548188,Шахматный дом (Игорный дом А.И. Троицкого),"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Нижний Новгород,way/151548188,Q93622482,3h,44.011173,56.325016
+150,N585136663,Рекорд,"cultural,cinemas,theatres_and_entertainments,interesting_places",Нижний Новгород,node/585136663,Q99522676,3h,44.00481,56.323887
+151,W151302806,Нижегородская государственная консерватория им. М.И. Глинки,"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Нижний Новгород,way/151302806,Q4318618,3h,44.012947,56.327446
+152,R2888456,Церковь Рождества Иоана Предтечи,"religion,churches,interesting_places,other_churches",Нижний Новгород,relation/2888456,Q2037203,3h,43.998135,56.329777
+153,R2906501,Коромыслова башня,"towers,architecture,interesting_places,other_towers",Нижний Новгород,relation/2906501,Q51885129,3h,43.998951,56.325813
+154,W147599580,Усадьба Добролюбовых,"cultural,museums,interesting_places,other_museums",Нижний Новгород,way/147599580,Q65175093,3h,43.99844,56.322536
+155,R2906496,Борисоглебская башня,"towers,architecture,fortifications,historic,interesting_places,other_towers,fortified_towers",Нижний Новгород,relation/2906496,Q30891111,3h,44.006256,56.330738
+156,W147599581,Дом-музей Добролюбова,"national_museums,biographical_museums,cultural,museums,interesting_places,history_museums",Нижний Новгород,way/147599581,Q65175093,3h,43.998371,56.322746
+157,W152110787,Дом Сироткина,"cultural,museums,interesting_places,other_museums",Нижний Новгород,way/152110787,Q99929827,3h,44.012966,56.329269
+158,W170361331,Спасский староярмарочный кафедральный собор,"religion,cathedrals,churches,interesting_places,eastern_orthodox_churches",Нижний Новгород,way/170361331,Q1916538,3h,43.953976,56.331402
+159,R2906497,Георгиевская башня,"towers,architecture,fortifications,historic,interesting_places,other_towers,fortified_towers",Нижний Новгород,relation/2906497,Q27781792,3h,44.008911,56.330097
+160,R2767108,Локомотив,"sport,architecture,historic_architecture,interesting_places,stadiums,other_buildings_and_structures",Нижний Новгород,relation/2767108,Q2503505,3h,43.929649,56.309647
+161,R4864923,Крестовоздвиженский монастырь,"religion,monasteries,interesting_places",Нижний Новгород,relation/4864923,Q4240402,3h,43.981781,56.307186
+162,W147551305,Доходный дом купчихи П. Е. Кубаревой,"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Нижний Новгород,way/147551305,Q84609804,3h,43.977024,56.324112
+163,R555801,Чкаловская лестница,"historic,monuments_and_memorials,interesting_places,monuments",Нижний Новгород,relation/555801,Q4516884,3h,44.009453,56.330681
+164,R2917119,Администрация Нижнего Новгорода,"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Нижний Новгород,relation/2917119,Q28032873,3h,44.005398,56.329159
+165,R2906495,Белая башня,"towers,architecture,interesting_places,other_towers",Нижний Новгород,relation/2906495,Q27781780,3h,44.001812,56.330524
+166,N5141054174,Дом Советов,"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Нижний Новгород,node/5141054174,Q28032873,3h,44.005836,56.328762
+167,R2906505,Пороховая башня,"towers,architecture,interesting_places,other_towers",Нижний Новгород,relation/2906505,Q51946190,3h,44.007252,56.328491
+168,N4929597723,Чкаловская лестница ,"historic,monuments_and_memorials,interesting_places,monuments",Нижний Новгород,node/4929597723,Q4516884,3h,44.009426,56.330471
+169,N4995217430,Чкаловская лестница,"historic,monuments_and_memorials,interesting_places,monuments",Нижний Новгород,node/4995217430,Q4516884,3h,44.009453,56.330479
+170,W151905929,Церковь во имя Всемилостивейшего Спаса,"religion,churches,interesting_places,eastern_orthodox_churches",Нижний Новгород,way/151905929,Q4500767,3h,44.024475,56.31905
+171,R2174006,Храм Живоначальной Троицы,"religion,churches,interesting_places,eastern_orthodox_churches",Нижний Новгород,relation/2174006,Q16715808,3h,44.046577,56.308556
+172,W164712659,Церковь в честь Преображения Господня,"religion,other_temples,interesting_places",Нижний Новгород,way/164712659,Q104776528,3h,44.072117,56.318909
+173,N1808680328,Музей науки «Нижегородская радиолаборатория»,"cultural,museums,science_museums,interesting_places",Нижний Новгород,node/1808680328,Q1994279,3h,44.013882,56.329411
+174,W149417079,Крестовоздвиженский собор,"religion,monasteries,interesting_places",Нижний Новгород,way/149417079,Q4240402,3h,43.982094,56.307251
+175,W918325991,Губернаторский сад,"urban_environment,gardens_and_parks,cultural,interesting_places",Нижний Новгород,way/918325991,Q100882660,3h,44.005272,56.329803
+176,N262652256,М. Горькому,"historic,monuments_and_memorials,urban_environment,cultural,interesting_places,sculptures,monuments",Нижний Новгород,node/262652256,Q4343244,3h,43.990711,56.31348
+177,R2906500,Кладовая башня,"towers,architecture,fortifications,historic,interesting_places,other_towers,fortified_towers",Нижний Новгород,relation/2906500,Q51946155,3h,44.003525,56.326359
+178,W85787924,Спасо-преображенский собор,"religion,churches,interesting_places,other_churches",Нижний Новгород,way/85787924,Q2403914,3h,43.872032,56.349922
+179,W151905901,Церковь во имя Всемирлостивейшего Спаса,"religion,churches,interesting_places,eastern_orthodox_churches",Нижний Новгород,way/151905901,Q4500767,3h,44.024479,56.319065
+180,R2969244,Церковь во имя Святого Пророка Божия Илии,"religion,churches,interesting_places,eastern_orthodox_churches",Нижний Новгород,relation/2969244,Q59901,3h,43.993713,56.328205
+181,R2323262,Зачатьевская башня,"towers,architecture,fortifications,historic,cultural,museums,interesting_places,other_museums,other_towers,fortified_towers",Нижний Новгород,relation/2323262,Q18408061,3h,44.003357,56.33083
+182,Q97999957,Здание Удельной конторы,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Нижний Новгород,,Q97999957,3h,44.021175,56.325153
+183,Q3860437,Печёрский Вознесенский монастырь,"religion,monasteries,interesting_places",Нижний Новгород,,Q3860437,3h,44.049721,56.322777
+184,Q16715547,Церковь Александра Невского в Сормово,"religion,churches,interesting_places,eastern_orthodox_churches",Нижний Новгород,,Q16715547,3h,43.868862,56.357773
+185,Q77756790,Усадьба Вяхиревых,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Нижний Новгород,,Q77756790,3h,43.974319,56.321663
+186,Q78114479,Дом Ермолаевых — П. Парфёнова,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Нижний Новгород,,Q78114479,3h,43.987328,56.315933
+187,Q83495700,Доходный дом Б. Н. Юсупова,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Нижний Новгород,,Q83495700,3h,44.000031,56.322086
+188,Q83560635,Торговый флигель О. Н. Каменевой,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Нижний Новгород,,Q83560635,3h,43.995853,56.317665
+189,Q84172585,Дом Е. Трушенинниковой,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Нижний Новгород,,Q84172585,3h,44.010155,56.329014
+190,Q84340772,Дом Виноградовых,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Нижний Новгород,,Q84340772,3h,43.987938,56.323109
+191,Q84767074,Дом М. В. Медведева,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Нижний Новгород,,Q84767074,3h,43.976734,56.323944
+192,Q86683423,Здание Волжско-Камского банка,"historic_architecture,architecture,interesting_places,bank,banks,tourist_facilities,other_buildings_and_structures",Нижний Новгород,,Q86683423,3h,43.991901,56.329498
+193,Q86684971,Дом И. Н. Соболева,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Нижний Новгород,,Q86684971,3h,43.98222,56.326599
+194,Q88379274,Дом А. И. Фролова,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Нижний Новгород,,Q88379274,3h,44.004597,56.321331
+195,Q96240614,Казанская церковь (Кстово),"religion,churches,interesting_places,eastern_orthodox_churches",Нижний Новгород,,Q96240614,3h,44.172501,56.181389
+196,Q96337173,Усадьба Е. И. Богоявленской,"architecture,historic_architecture,interesting_places,manor_houses",Нижний Новгород,,Q96337173,3h,44.027401,56.323872
+197,Q96591455,Усадьба Киршбаумов,"architecture,historic_architecture,interesting_places,manor_houses",Нижний Новгород,,Q96591455,3h,44.019402,56.323601
+198,Q97163612,Дом А. К. Фомина,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Нижний Новгород,,Q97163612,3h,44.011063,56.328957
+199,Q4165515,Дом культуры ГУВД (Нижний Новгород),"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Нижний Новгород,,Q4165515,3h,43.988495,56.316048
+200,W129207551,Церковь Никиты Великомученика,"religion,churches,interesting_places,eastern_orthodox_churches",Владимир,way/129207551,Q18331765,3h,40.397797,56.130745
+201,R7140571,Авиамеханический колледж,"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Владимир,relation/7140571,Q18786015,3h,40.387318,56.126278
+202,R5606302,Собор Успения Пресвятой Богородицы,"religion,cathedrals,churches,interesting_places,eastern_orthodox_churches",Владимир,relation/5606302,Q775487,3h,40.409214,56.127438
+203,W131632302,Троицкая церковь,"religion,churches,interesting_places,eastern_orthodox_churches",Владимир,way/131632302,Q9187382,3h,40.396076,56.126453
+204,N1923952002,Дом-музей Столетовых,"biographical_museums,historic_house_museums,cultural,museums,interesting_places,history_museums",Владимир,node/1923952002,Q107422934,3h,40.413654,56.132446
+205,W131632312,Исторический музей,"cultural,museums,interesting_places,history_museums",Владимир,way/131632312,Q21639947,3h,40.410965,56.130333
+206,W173146726,Князь-Владимирская церковь,"religion,churches,interesting_places,eastern_orthodox_churches",Владимир,way/173146726,Q65062793,3h,40.436531,56.14286
+207,R5587112,Владимирский академический областной драматический театр,"cultural,theatres_and_entertainments,interesting_places,other_theatres",Владимир,relation/5587112,Q56230588,3h,40.396076,56.125618
+208,R7209239,"Здание Присутственных мест. ""Палаты""","cultural,museums,interesting_places,art_galleries",Владимир,relation/7209239,Q21639730,3h,40.41021,56.128372
+209,R5587113,Бывшая водонапорная башня,"towers,architecture,interesting_places,water_towers",Владимир,relation/5587113,Q4114100,3h,40.398781,56.125111
+210,W163195444,Костел Святого Розария Пресвятой Девы Марии Римско-Католической Церкви,"religion,churches,interesting_places,catholic_churches",Владимир,way/163195444,Q3580427,3h,40.394875,56.124916
+211,W129295802,Дмитриевский собор,"religion,cathedrals,churches,interesting_places,eastern_orthodox_churches",Владимир,way/129295802,Q550346,3h,40.410942,56.129208
+212,W146322037,Богородице-Рождественский мужской монастырь,"religion,monasteries,interesting_places",Владимир,way/146322037,Q4089667,3h,40.414005,56.131298
+213,R5471545,Успенский Княгинин монастырь,"religion,monasteries,interesting_places",Владимир,relation/5471545,Q4478034,3h,40.398716,56.131477
+214,N1905368022,Золотые ворота,"architecture,towers,fortifications,historic,museums,other_museums,other_towers,fortified_towers,historic_architecture,defensive_walls,monuments_and_memorials,cultural,interesting_places,monuments,triumphal_archs",Владимир,node/1905368022,Q775020,3h,40.397278,56.126831
+215,Q240549,Владимирский централ,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Владимир,,Q240549,3h,40.432663,56.141544
+216,Q4113277,Владимирский государственный гуманитарный университет,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Владимир,,Q4113277,3h,40.379169,56.146389
+217,Q19906501,Владимирское духовное училище,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Владимир,,Q19906501,3h,40.410999,56.1366
+218,Q838264,Белокаменные памятники Владимира и Суздаля,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Владимир,,Q838264,3h,40.416698,56.150002
+219,Q4113284,Владимирский планетарий,"planetariums,religion,churches,cultural,museums,interesting_places,other_churches",Владимир,,Q4113284,3h,40.411942,56.130829
+220,Q19916149,Храм Казанской иконы Божией Матери,"religion,other_temples,interesting_places",Владимир,,Q19916149,3h,40.363838,56.120659
+221,Q21639718,Здание городской думы,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Владимир,,Q21639718,3h,40.406441,56.128639
+222,N3880871297,Музей ложки,"cultural,museums,children_museums,interesting_places,history_museums,art_galleries",Владимир,node/3880871297,Q62560931,3,40.40321,56.127506
+223,R2322452,Князь-Владимирское кладбище,"cemeteries,historic,burial_places,interesting_places",Владимир,relation/2322452,Q19691959,3,40.434685,56.143505
+224,N3842308198,Владимирская митрополия,"fortifications,historic,interesting_places,castles",Владимир,node/3842308198,Q62558976,3,40.414703,56.131302
+225,N1888417126,Владимиро-Суздальский музей-заповедник (центральный офис),"cultural,museums,natural,interesting_places,nature_reserves,other_nature_conservation_areas,open_air_museums",Владимир,node/1888417126,Q4113090,3,40.409889,56.130569
+226,Q4113251,Владимирская духовная семинария,"religion,other_temples,interesting_places",Владимир,,Q4113251,3,40.413074,56.131168
+227,Q18331756,église arménienne de Vladimir,"religion,churches,interesting_places,other_churches",Владимир,,Q18331756,3,40.456497,56.154667
+228,U4133,Мемориальная мастерская им. Французова,"museums,cultural,interesting_places,local_museums,art_galleries",Владимир,,,2,40.398632,56.126774
+229,U4152,Выставочный зал,"museums,cultural,interesting_places,art_galleries",Владимир,,,2,40.413624,56.132153
+230,U6301,Музей хрусталя и стекла XVIII-XXI веков,"museums,cultural,interesting_places,art_galleries",Владимир,,,2,40.396053,56.126419
+231,U6303,Музей непридуманных историй,"museums,cultural,children_museums,interesting_places,history_museums,art_galleries",Владимир,,,2,40.401737,56.13081
+232,U6674,Военно-историческая экспозиция (Золотые ворота),"historic,burial_places,interesting_places,war_memorials",Владимир,,,2,40.397057,56.126881
+233,U6744,Виртуальный концертный зал,"theatres_and_entertainments,cultural,interesting_places,music_venues",Владимир,,,2,40.384937,56.121613
+234,U6902,Центр классической музыки,"theatres_and_entertainments,cultural,interesting_places,music_venues",Владимир,,,2,40.402538,56.127754
+235,U6903,Концертный зал им. С. И. Танеева,"theatres_and_entertainments,cultural,interesting_places,music_venues",Владимир,,,2,40.384872,56.121651
+236,U6956,Концертно-спортивный комплекс Art Hall,"theatres_and_entertainments,cultural,interesting_places,other_theatres",Владимир,,,2,40.431717,56.151306
+237,U7274,Кресень,"theatres_and_entertainments,cultural,interesting_places,other_theatres",Владимир,,,2,40.349018,56.110313
+238,U7293,Владимирский областной театр кукол,"puppetries,theatres_and_entertainments,cultural,interesting_places",Владимир,,,2,40.403103,56.129936
+239,U7573,Дружба,"gardens_and_parks,urban_environment,cultural,interesting_places",Владимир,,,2,40.334717,56.107971
+240,N1412650394,Старый Владимир,"towers,architecture,cultural,museums,interesting_places,other_museums,other_towers",Владимир,node/1412650394,,2,40.398754,56.125145
+241,N6514072286,Огни Владимира,"cultural,museums,children_museums,interesting_places,history_museums",Владимир,node/6514072286,,2,40.400143,56.127617
+242,N1991927689,Театр фольклора «Разгуляй»,"cultural,theatres_and_entertainments,interesting_places,other_theatres",Владимир,node/1991927689,,2,40.4865,56.16814
+243,N1901939095,Владимирский областной театр кукол,"puppetries,cultural,theatres_and_entertainments,interesting_places",Владимир,node/1901939095,,2,40.403378,56.130016
+244,N5404094893,"Музей науки и человека ЭВРИКА, г. Владимир","cultural,museums,science_museums,children_museums,interesting_places,museums_of_science_and_technology,other_technology_museums",Владимир,node/5404094893,,2,40.400223,56.127617
+245,N5236023127,Старая аптека,"cultural,museums,interesting_places,history_museums",Владимир,node/5236023127,,2,40.402435,56.127205
+246,N1794469857,Музей природы,"cultural,museums,interesting_places,other_museums",Владимир,node/1794469857,,2,40.397766,56.137833
+247,N3814558074,Галерея Владимирской школы живописи,"cultural,museums,interesting_places,art_galleries",Владимир,node/3814558074,,2,40.402302,56.128124
+248,R5482895,"Памятник природы ""Лесной парк Дружба""","urban_environment,gardens_and_parks,cultural,natural,interesting_places,nature_reserves,other_nature_conservation_areas",Владимир,relation/5482895,Q18400985,2,40.303032,56.103119
+249,W130740964,Дом дворянина А.А. Протасьева,"other,unclassified_objects,interesting_places,tourist_object",Владимир,way/130740964,,1,40.38599,56.131748
+250,N2470904637,Владимир,"historic,monuments_and_memorials,interesting_places,monuments",Владимир,node/2470904637,,1,40.30917,56.107956
+251,N6089565000,Танкистам,"historic,monuments_and_memorials,interesting_places,monuments",Владимир,node/6089565000,,1,40.317623,56.147251
+252,N5370927217,1941-1945,"historic,burial_places,interesting_places,war_memorials",Владимир,node/5370927217,,1,40.362949,56.111187
+253,W196837615,"Христианская Евангельская Церковь ""Часовня у Голгофы""","religion,churches,interesting_places,other_churches",Владимир,way/196837615,,1,40.357697,56.116772
+254,N1947521913,П.И. Чайковский,"historic,monuments_and_memorials,cultural,urban_environment,interesting_places,sculptures,monuments",Владимир,node/1947521913,,1,40.363274,56.122078
+255,N3817669434,Дерево дружбы,"historic,monuments_and_memorials,interesting_places,monuments",Владимир,node/3817669434,,1,40.362888,56.120129
+256,N3809171187,Панно на стене,"cultural,urban_environment,interesting_places,installation",Владимир,node/3809171187,,1,40.356834,56.129509
+257,N3804108697,Владимирская гвардейская ракетная Витебская Краснознамённая армия,"historic,monuments_and_memorials,interesting_places,monuments",Владимир,node/3804108697,,1,40.362621,56.131588
+258,N1012304895,Вечный огонь,"historic,burial_places,interesting_places,war_memorials",Владимир,node/1012304895,,1,40.364002,56.120033
+259,N3807490548,Бобёр,"cultural,urban_environment,interesting_places,sculptures",Владимир,node/3807490548,,1,40.37801,56.121078
+260,N3681323129,Венера,"cultural,urban_environment,interesting_places,sculptures",Владимир,node/3681323129,,1,40.383736,56.122677
+261,N3805622894,Панно на фасаде,"cultural,urban_environment,interesting_places,installation",Владимир,node/3805622894,,1,40.364193,56.13826
+262,N3937686397,Владимир,"historic,monuments_and_memorials,interesting_places,monuments",Владимир,node/3937686397,,1,40.361938,56.158051
+263,N2041833437,Каменная горка,"fountains,cultural,urban_environment,interesting_places",Владимир,node/2041833437,,1,40.377995,56.147411
+264,N3786642037,Наука,"historic,monuments_and_memorials,cultural,urban_environment,interesting_places,sculptures,monuments",Владимир,node/3786642037,,1,40.380108,56.146404
+265,N2048008395,Владимир,"historic,monuments_and_memorials,interesting_places,monuments",Владимир,node/2048008395,,1,40.367638,56.152447
+266,N2076499942,Погибшим в ВОВ,"historic,burial_places,interesting_places,war_memorials",Владимир,node/2076499942,,1,40.387913,56.126659
+267,N3807490551,Дева Мария,"cultural,urban_environment,interesting_places,sculptures",Владимир,node/3807490551,,1,40.394699,56.125015
+268,N3126700595,Владимирская вишня,"cultural,urban_environment,interesting_places,sculptures",Владимир,node/3126700595,,1,40.399315,56.12534
+269,N2387630221,Площадка на крыше,"view_points,other,interesting_places",Владимир,node/2387630221,,1,40.39883,56.125061
+270,N3809171188,Пожарный автомобиль-лестница,"historic,monuments_and_memorials,interesting_places,monuments",Владимир,node/3809171188,,1,40.400349,56.126213
+271,N2092144362,Оборонительный земляной вал древнего Владимира,"historic,monuments_and_memorials,interesting_places,monuments",Владимир,node/2092144362,,1,40.397152,56.126568
+272,N1792890919,Лебедев-Полянский П.И.,"historic,monuments_and_memorials,interesting_places,monuments",Владимир,node/1792890919,,1,40.396961,56.127117
+273,N1749443739,Козлов вал,"view_points,other,interesting_places",Владимир,node/1749443739,,1,40.397335,56.126492
+274,N3787578355,Старинный велосипед,"cultural,urban_environment,interesting_places,installation",Владимир,node/3787578355,,1,40.400295,56.127403
+275,N3809171189,Такса,"cultural,urban_environment,interesting_places,sculptures",Владимир,node/3809171189,,1,40.400517,56.127426
+276,N4076959103,Мальчик с рогаткой,"historic,monuments_and_memorials,interesting_places,monuments",Владимир,node/4076959103,,1,40.400688,56.127682
+277,N2050123028,Фавор,"cultural,theatres_and_entertainments,interesting_places,other_theatres",Владимир,node/2050123028,,1,40.401272,56.127522
+278,N4440238992,Филёр,"cultural,urban_environment,interesting_places,sculptures",Владимир,node/4440238992,,1,40.401573,56.126457
+279,N3891350370,Библиотечная лужайка,"cultural,urban_environment,interesting_places,installation",Владимир,node/3891350370,,1,40.402336,56.126423
+280,N3788208162,Художник на пленэре,"cultural,urban_environment,interesting_places,sculptures",Владимир,node/3788208162,,1,40.402805,56.127064
+281,N3788208161,Аптекарь,"cultural,urban_environment,interesting_places,sculptures",Владимир,node/3788208161,,1,40.402309,56.127251
+282,N3871434717,Кино 9D,"cultural,cinemas,theatres_and_entertainments,interesting_places",Владимир,node/3871434717,,1,40.403423,56.129032
+283,N1792867051,Великая Княгиня Ольга,"historic,monuments_and_memorials,interesting_places,monuments",Владимир,node/1792867051,,1,40.392128,56.129597
+284,N1436958331,Воинам-интернационалистам,"historic,burial_places,interesting_places,war_memorials",Владимир,node/1436958331,,1,40.392071,56.131077
+285,N1435900427,Памятник Гоголю,"historic,monuments_and_memorials,interesting_places,monuments",Владимир,node/1435900427,,1,40.397076,56.129631
+286,N4499063760,Домовая церковь Елисаветы Феодоровны,"religion,other_temples,interesting_places",Владимир,node/4499063760,,1,40.403072,56.134537
+287,N3663765701,Макет ракеты-носителя Союз-ТМ,"cultural,urban_environment,interesting_places,installation",Владимир,node/3663765701,,1,40.397129,56.139618
+288,N4225763986,Чернобыль - трагедия XX века,"cultural,museums,interesting_places,other_museums",Владимир,node/4225763986,,1,40.406498,56.135403
+289,N569740253,Князю Владимиру и святителю Фёдору,"historic,monuments_and_memorials,cultural,urban_environment,interesting_places,sculptures,monuments",Владимир,node/569740253,,1,40.407963,56.125759
+290,N3796718136,2000 летию Рождества Христова,"historic,monuments_and_memorials,interesting_places,monuments",Владимир,node/3796718136,,1,40.408882,56.127674
+291,N4437862839,Сердце,"cultural,urban_environment,interesting_places,installation",Владимир,node/4437862839,,1,40.410282,56.12999
+292,N3833187861,Церковь Александра Невского при мужской гимназии,"religion,other_temples,interesting_places",Владимир,node/3833187861,,1,40.408161,56.129822
+293,N3842308204,Храм святого Феофана Затворника при Архиерейском кабинете,"religion,other_temples,interesting_places",Владимир,node/3842308204,,1,40.413052,56.131226
+294,N2423762708,"Притвор-часовня в честь иконы Божией Матери ""Иверская""","religion,other_temples,interesting_places",Владимир,node/2423762708,,1,40.413078,56.131516
+295,N3789421242,Ивановский вал,"historical_places,historic,interesting_places,historic_settlements",Владимир,node/3789421242,,1,40.412052,56.13422
+296,N1766460255,Церковь Рождества Христова,"religion,other_temples,interesting_places",Владимир,node/1766460255,,1,40.413273,56.131645
+297,N1766460251,Надвратная церковь святого князя Александра Невского,"religion,other_temples,interesting_places",Владимир,node/1766460251,,1,40.413509,56.131752
+298,N1766460261,"Часовня святого Николая Чудотворца, архиепископа Мирликийского","religion,other_temples,interesting_places",Владимир,node/1766460261,,1,40.413628,56.131805
+299,N3807490550,Владимирским железнодорожникам погибшим в ВОВ,"historic,burial_places,interesting_places,war_memorials",Владимир,node/3807490550,,1,40.42149,56.130661
+300,N552713468,Н.А. Некрасову,"historic,monuments_and_memorials,interesting_places,monuments",Ярославль,node/552713468,Q4343284,3h,39.892933,57.632572
+301,W125448768,Российский государственный академический театр драмы имени Федора Волкова,"cultural,theatres_and_entertainments,interesting_places,other_theatres",Ярославль,way/125448768,Q4398052,3h,39.884796,57.627155
+302,W239408057,Ярославская соборная мечеть,"religion,other_temples,interesting_places",Ярославль,way/239408057,Q4281966,3h,39.875633,57.636059
+303,W44896191,Церковь Спаса на городу,"religion,churches,interesting_places,eastern_orthodox_churches",Ярославль,way/44896191,Q16715792,3h,39.895622,57.622604
+304,W617228287,Спасо-Преображенский монастырь,"religion,monasteries,interesting_places",Ярославль,way/617228287,Q1078595,3h,39.889442,57.621704
+305,W45013546,Спасо-Преображенский собор,"religion,cathedrals,monasteries,interesting_places",Ярославль,way/45013546,Q1078595,3h,39.889511,57.621506
+306,W92405439,Николая Чудотворца,"religion,churches,interesting_places,other_churches",Ярославль,way/92405439,Q4504845,3h,39.865314,57.61031
+307,W101704727,Владимирская церковь,"religion,churches,interesting_places,other_churches",Ярославль,way/101704727,Q4113263,3h,39.852306,57.625523
+308,W103292201,церковь Николая Чудотворца,"religion,churches,interesting_places,eastern_orthodox_churches",Ярославль,way/103292201,Q30913942,3h,39.870548,57.620068
+309,W173960067,Церковь Благовещения,"religion,churches,interesting_places,other_churches",Ярославль,way/173960067,Q4087788,3h,39.891327,57.634312
+310,W48274072,Часовня Александра Невского,"religion,churches,interesting_places,other_churches",Ярославль,way/48274072,Q4507592,3h,39.891064,57.625462
+311,W76701664,Храм Великомученика Никиты,"religion,churches,interesting_places,other_churches",Ярославль,way/76701664,Q4319898,3h,39.868584,57.623791
+312,W45013537,Богоявленская башня,"towers,religion,architecture,fortifications,historic,churches,interesting_places,other_towers,fortified_towers,other_churches",Ярославль,way/45013537,Q4504600,3h,39.887489,57.620663
+313,W834800265,Колокольня Никитского прихода,"towers,religion,architecture,churches,interesting_places,other_towers,other_churches",Ярославль,way/834800265,Q4319898,3h,39.868759,57.623619
+314,W45013536,Церковь Богоявления Господня,"religion,churches,interesting_places,eastern_orthodox_churches",Ярославль,way/45013536,Q4504600,3h,39.88644,57.621643
+315,W95564000,Воинское мемориальное кладбище,"cemeteries,historic,burial_places,interesting_places,war_memorials",Ярославль,way/95564000,Q4122453,3h,39.830746,57.631962
+316,N1361341279,Кирило-Афанасиевский мужской монастырь,"religion,monasteries,interesting_places",Ярославль,node/1361341279,Q4221355,3h,39.895275,57.625294
+317,W123291538,Крестоборогодская церковь,"religion,churches,interesting_places,other_churches",Ярославль,way/123291538,Q4240367,3h,39.849354,57.578876
+318,W95943760,Церковь Николы в Меленках,"religion,churches,interesting_places,eastern_orthodox_churches",Ярославль,way/95943760,Q104554178,3h,39.834522,57.609947
+319,W44898055,Музей истории города Ярославля,"cultural,museums,children_museums,interesting_places,history_museums,local_museums",Ярославль,way/44898055,Q4306319,3h,39.898617,57.627079
+320,W462014550,Спасо-Афанасиевский Ярославский монастырь,"religion,monasteries,interesting_places",Ярославль,way/462014550,Q4221355,3h,39.895222,57.62537
+321,W140038051,Николо-Тропинская церковь,"religion,architecture,historic_architecture,churches,interesting_places,destroyed_objects,other_churches",Ярославль,way/140038051,Q4320780,3h,39.891727,57.613121
+322,W44899216,Волжская башня,"towers,architecture,interesting_places,other_towers",Ярославль,way/44899216,Q4123105,3h,39.901684,57.625027
+323,W82251166,Сретенский храм,"religion,churches,interesting_places,eastern_orthodox_churches",Ярославль,way/82251166,Q4438830,3h,39.888905,57.625244
+324,N4997897721,Знаменская церковь,"towers,religion,architecture,churches,interesting_places,other_towers,other_churches",Ярославль,node/4997897721,Q4113610,3h,39.885262,57.625439
+325,W44899213,Музей древнерусского искусства,"cultural,museums,interesting_places,art_galleries",Ярославль,way/44899213,Q4296770,3h,39.902294,57.623344
+326,W136184765,Власьевская (Знаменская) башня,"towers,religion,architecture,churches,interesting_places,other_towers,other_churches",Ярославль,way/136184765,Q4113610,3h,39.884975,57.625359
+327,N1234995463,Ярославский музей-заповедник,"cultural,museums,archaeological_museums,interesting_places,history_museums,open_air_museums,art_galleries",Ярославль,node/1234995463,Q4538889,3h,39.89003,57.620876
+328,W92405434,церковь Иоанна Предтечи в Толчкове,"religion,churches,interesting_places,eastern_orthodox_churches",Ярославль,way/92405434,Q2084804,3h,39.856861,57.610909
+329,W271115386,Толгский Ярославский в честь Введения во храм Пресвятой Богородицы монастырь,"religion,monasteries,interesting_places",Ярославль,way/271115386,Q1776349,3h,39.82869,57.697281
+330,W183940992,Храм Зосимы и Савватия,"religion,churches,interesting_places,eastern_orthodox_churches",Ярославль,way/183940992,Q16715602,3h,39.903271,57.636955
+331,W187948282,Храм Архангела Михаила,"religion,churches,interesting_places,eastern_orthodox_churches",Ярославль,way/187948282,Q60850718,3h,39.764675,57.738789
+332,W44900364,церковь Николы Рублёного,"religion,churches,interesting_places,eastern_orthodox_churches",Ярославль,way/44900364,Q16715656,3h,39.898258,57.622509
+333,N4618248825,Казанский женский монастырь,"religion,monasteries,interesting_places",Ярославль,node/4618248825,Q4207801,3h,39.886944,57.627979
+334,W107535735,Церковь Софии Премудрости Божией в Савино,"religion,other_temples,interesting_places",Ярославль,way/107535735,Q16715786,3h,39.919182,57.623425
+335,W92405450,Федоровский собор,"religion,churches,interesting_places,eastern_orthodox_churches",Ярославль,way/92405450,Q4494153,3h,39.865444,57.609676
+336,W150447107,Церковь Николая Надеина,"religion,churches,museums,cultural,interesting_places,eastern_orthodox_churches,history_museums",Ярославль,way/150447107,Q4504840,3h,39.896023,57.628815
+337,W44896201,Церковь Ильи Пророка,"religion,churches,interesting_places,eastern_orthodox_churches",Ярославль,way/44896201,Q4177920,3h,39.894485,57.626812
+338,W101935938,Церковь Вознесения Господня,"religion,churches,interesting_places,eastern_orthodox_churches",Ярославль,way/101935938,Q4114893,3h,39.871132,57.626507
+339,W150378447,церковь Михаила Архангела,"religion,churches,interesting_places,eastern_orthodox_churches",Ярославль,way/150378447,Q1365930,3h,39.89259,57.622082
+340,N7932069485,Дом Болконского,"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Ярославль,node/7932069485,Q4165268,3h,39.900871,57.625092
+341,N552713459,Памятник Леониду Николаевичу Трефолеву,"historic,monuments_and_memorials,interesting_places,monuments",Ярославль,node/552713459,Q4343231,3h,39.888012,57.62759
+342,W87498821,"Музей-заповедник Н. А. Некрасова ""Карабиха""","national_museums,biographical_museums,architecture,museums,natural,nature_reserves,manor_houses,other_nature_conservation_areas,open_air_museums,historic_architecture,cultural,interesting_places,history_museums,art_galleries",Ярославль,way/87498821,Q4213530,3h,39.756893,57.50919
+343,Q19908952,Демидовский сад,"gardens_and_parks,cultural,urban_environment,interesting_places",Ярославль,,Q19908952,3h,39.89724,57.625038
+344,Q1189431,Мемориальный дом-музей М. Богдановича,"biographical_museums,museums,cultural,interesting_places",Ярославль,,Q1189431,3h,39.870735,57.624523
+345,Q4110247,Вечный огонь (Ярославль),"historic,monuments_and_memorials,interesting_places,monuments",Ярославль,,Q4110247,3h,39.898975,57.623791
+346,Q4151348,Губернаторский дом (Ярославль),"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Ярославль,,Q4151348,3h,39.897221,57.628334
+347,Q4538913,Ярославский филиал Военно-космической академии имени А. Ф. Можайского,"other,unclassified_objects,interesting_places,historic_object",Ярославль,,Q4538913,3h,39.877613,57.607079
+348,Q4343495,Памятник жертвам белогвардейского мятежа,"historic,monuments_and_memorials,interesting_places,monuments",Ярославль,,Q4343495,3h,39.89571,57.625862
+349,Q4379291,Приход Воздвижения Святого Креста (Ярославль),"religion,churches,interesting_places,other_churches",Ярославль,,Q4379291,3h,39.88435,57.637329
+350,Q13668162,Петропавловский парк,"gardens_and_parks,cultural,urban_environment,interesting_places",Ярославль,,Q13668162,3h,39.845001,57.599445
+351,Q25394333,Мост Волжские Ворота,"bridges,architecture,interesting_places,other_bridges",Ярославль,,Q25394333,3h,39.90126,57.625069
+352,Q56312986,Церковь Рождества Христова,"religion,other_temples,interesting_places",Ярославль,,Q56312986,3h,39.881786,57.711025
+353,Q4165529,Дом муз,"museums,cultural,interesting_places,fashion_museums,art_galleries",Ярославль,,Q4165529,3h,39.869602,57.624615
+354,Q4525185,Школа № 33 имени Карла Маркса,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Ярославль,,Q4525185,3h,39.881363,57.628075
+355,Q4538931,Ярославское художественное училище,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Ярославль,,Q4538931,3h,39.876846,57.609852
+356,Q4085572,Беседка на Волжской набережной,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Ярославль,,Q4085572,3h,39.896305,57.629944
+357,Q4146509,Гостиный двор (Ярославль),"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Ярославль,,Q4146509,3h,39.886112,57.624443
+358,Q4204534,Исторический центр Ярославля,"historic,historical_places,interesting_places,historic_districts",Ярославль,,Q4204534,3h,39.887501,57.623611
+359,Q4538877,Ярославский дворец молодёжи,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Ярославль,,Q4538877,3h,39.867222,57.63625
+360,Q60851633,Бутусовский посёлок,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Ярославль,,Q60851633,3h,39.871456,57.629276
+361,N3691243291,Музей зарубежного искусства,"cultural,museums,interesting_places,art_galleries",Ярославль,node/3691243291,Q3329597,3,39.89579,57.627102
+362,N964688408,Ярославский художественный музей (Губернаторский дом),"cultural,museums,interesting_places,art_galleries",Ярославль,node/964688408,Q3329597,3,39.897274,57.628376
+363,W130733596,Ярославский зоопарк,"urban_environment,gardens_and_parks,cultural,museums,children_museums,interesting_places,zoos,open_air_museums",Ярославль,way/130733596,Q16723452,3,39.895737,57.674446
+364,W95943763,Храм Петра и Павла,"religion,churches,interesting_places,eastern_orthodox_churches",Ярославль,way/95943763,Q12140265,3,39.8437,57.602531
+365,W72225050,Леонтьевское кладбище,"cemeteries,historic,burial_places,interesting_places",Ярославль,way/72225050,Q30709938,3,39.834396,57.629993
+366,N7931969085,Городам побратимам,"historic,monuments_and_memorials,interesting_places,monuments",Ярославль,node/7931969085,Q4343758,3,39.884804,57.625622
+367,W44899210,Успенский собор,"religion,cathedrals,churches,interesting_places,eastern_orthodox_churches",Ярославль,way/44899210,Q1140551,3,39.901978,57.622429
+368,W96530735,Леонтьевская церковь,"cemeteries,religion,other_temples,historic,burial_places,interesting_places",Ярославль,way/96530735,Q30709938,3,39.834888,57.63068
+369,W837349639,храм Ярославской иконы Божией Матери,"religion,churches,interesting_places,eastern_orthodox_churches",Ярославль,way/837349639,Q13668665,3,39.908268,57.582783
+370,N3658286110,Музыка и время,"cultural,museums,interesting_places,other_museums",Ярославль,node/3658286110,Q4306599,3,39.894951,57.630356
+371,R2036118,Власьевский сквер,"urban_environment,gardens_and_parks,cultural,interesting_places",Ярославль,relation/2036118,Q13668166,3,39.882793,57.626457
+372,N552713465,М.А. Богданович,"historic,monuments_and_memorials,interesting_places,monuments",Ярославль,node/552713465,Q471207,3,39.88715,57.632545
+373,W240658074,Цирк,"circuses,cultural,theatres_and_entertainments,interesting_places",Ярославль,way/240658074,Q4538876,3,39.865444,57.625584
+374,W114127277,часовня Казанской Богоматери,"religion,churches,interesting_places,other_churches",Ярославль,way/114127277,Q3657520,3,39.890251,57.620323
+375,N965847355,Театр кукол,"puppetries,cultural,theatres_and_entertainments,interesting_places",Ярославль,node/965847355,Q4538870,3,39.876846,57.624577
+376,W84997561,Старообрядческий храм Иоанна Златоуста в Коровниках,"religion,churches,interesting_places,other_churches",Ярославль,way/84997561,Q21008370,3,39.90596,57.61158
+377,R6279026,Парк 1000-летия Ярославля,"urban_environment,gardens_and_parks,cultural,interesting_places",Ярославль,relation/6279026,Q4421071,3,39.871151,57.616882
+378,W45846077,Ярославский государственный театр юного зрителя им. В. С. Розова,"cultural,theatres_and_entertainments,interesting_places,children_theatres",Ярославль,way/45846077,Q4538871,3,39.876179,57.624504
+379,W222984781,Музей Боевой Славы,"cultural,museums,interesting_places,museums_of_science_and_technology,history_museums,other_technology_museums,military_museums",Ярославль,way/222984781,Q4306222,3,39.831711,57.633209
+380,Q4157550,Демидовский столп (Ярославль),"architecture,historic_architecture,interesting_places,destroyed_objects",Ярославль,,Q4157550,3,39.897221,57.625038
+381,Q28056804,Cerkiew św. Dymitra Sołuńskiego w Jarosławiu,"religion,churches,interesting_places,eastern_orthodox_churches",Ярославль,,Q28056804,3,39.88139,57.62167
+382,Q28058985,Cerkiew Narodzenia Pańskiego w Jarosławiu,"religion,churches,interesting_places,eastern_orthodox_churches",Ярославль,,Q28058985,3,39.89436,57.630562
+383,Q4320775,Николо-Сковородский монастырь,"religion,architecture,historic_architecture,monasteries,interesting_places,destroyed_objects",Ярославль,,Q4320775,3,39.842442,57.600094
+384,Q25389078,Памятник 1000-летию Ярославля,"historic,monuments_and_memorials,interesting_places,monuments",Ярославль,,Q25389078,3,39.904823,57.617668
+385,Q4538885,Ярославский камерный театр,"theatres_and_entertainments,cultural,interesting_places,other_theatres",Ярославль,,Q4538885,3,39.8811,57.629101
+386,Q30913943,Cerkiew Włodzimierskiej Ikony Matki Bożej w Jarosławiu,"religion,churches,interesting_places,eastern_orthodox_churches",Ярославль,,Q30913943,3,39.906563,57.611237
+387,Q19909049,Парк на Стрелке,"gardens_and_parks,cultural,urban_environment,interesting_places",Ярославль,,Q19909049,3,39.902702,57.622063
+388,Q4361245,Петровский монастырь (Ярославль),"religion,monasteries,interesting_places",Ярославль,,Q4361245,3,39.897964,57.642868
+389,W77730252,Автомеханический техникум,"architecture,historic_architecture,interesting_places,other_buildings_and_structures",Ярославль,way/77730252,Q4538862,2h,39.850819,57.641842
+390,N1050096042,М.В. Фрунзе,"historic,monuments_and_memorials,interesting_places,monuments",Ярославль,node/1050096042,Q4343266,2h,39.874001,57.599037
+391,N552713450,Ф. Г. Волкову,"historic,monuments_and_memorials,urban_environment,cultural,interesting_places,sculptures,monuments",Ярославль,node/552713450,Q4343395,2h,39.883522,57.626495
+392,N4928995381,Фёдор Иванович Толбухин,"historic,monuments_and_memorials,interesting_places,monuments",Ярославль,node/4928995381,Q4343398,2h,39.858017,57.632484
+393,N966584280,Г.М. Димитрову,"historic,monuments_and_memorials,interesting_places,monuments",Ярославль,node/966584280,Q4343126,2h,39.873543,57.634766
+394,Q2494278,Тимерёвский археологический комплекс,"historic,historical_places,archaeology,interesting_places,other_archaeological_sites,historic_settlements",Ярославль,,Q2494278,2h,39.741951,57.53627
+395,Q97161882,Михайловские курганы,"historic,archaeology,interesting_places,other_archaeological_sites",Ярославль,,Q97161882,2h,39.747612,57.765659
+396,Q4091101,Больница имени Н. В. Соловьёва,"historic_architecture,architecture,interesting_places,other_buildings_and_structures",Ярославль,,Q4091101,2h,39.86388,57.63892
+397,U3739,Музей занимательных наук Эйнштейна,"museums,cultural,science_museums,children_museums,interesting_places,museums_of_science_and_technology,other_technology_museums",Ярославль,,,2,39.8381,57.670315
+398,U3885,Дом-музей Максима Богдановича,"biographical_museums,museums,cultural,interesting_places",Ярославль,,,2,39.870636,57.624523
+399,U4106,Выставочный зал имени Нужина,"museums,cultural,interesting_places,local_museums,art_galleries",Ярославль,,,2,39.880016,57.625282

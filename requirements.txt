@@ -2,3 +2,8 @@ redis
 torch
 torchvision
 python-dotenv
+sentence_transformers
+annoy
+scipy
+numpy
+pandas

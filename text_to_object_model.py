@@ -92,7 +92,7 @@ class Model:
             nn.Linear(in_features=512, out_features=n_classes),
         )
 
-        self.model.load_state_dict(torch.load("text_model.pt", map_location=device))
+        self.model.load_state_dict(torch.load("models/text_model.pt", map_location=device))
         self.model = self.model.to(device)
         self.model.eval()
         self.find_XID = pd.read_csv('find_XID.csv')

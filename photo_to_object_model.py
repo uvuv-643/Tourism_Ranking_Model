@@ -433,6 +433,7 @@ class PhotoModel:
         data = self.get_topk(prob)
         dist = self.get_dist(data)
         # print()
+        print(json_from_pandas_to_main_format(data.to_json(orient='records', force_ascii=False)))
         return {'categories': [{'label': label, 'prob': prob} for label, prob in dist.items()],
               'objects': json_from_pandas_to_main_format(data.to_json(orient='records', force_ascii=False))}
 

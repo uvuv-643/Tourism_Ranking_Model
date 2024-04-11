@@ -115,7 +115,6 @@ class TextModel:
         prob = nn.Softmax(dim=1)(self.model(query)).squeeze().cpu()
         data = self.get_topk(prob)
         dist = self.get_dist(data)
-        # print()
         return {'categories': [{'label': label, 'prob': prob} for label, prob in dist.items()],
                 'objects': json_from_pandas_to_main_format(data.to_json(orient='records', force_ascii=False))}
         # js = {'categories': [{'label': label, prob: prob} for label, prob in dist.items()],
@@ -158,22 +157,8 @@ class TextModel:
     def get_topk(self, pred, k=15):
         v, i = torch.topk(pred, k)
         vi = {i: v for i, v in zip(i.detach().numpy(), v.detach().numpy())}
-        print(i)
         city_names = [self.inverse_transform[ind] for ind in i.numpy()]
-        print(city_names)
         data = self.train_data.loc[self.train_data.XID.isin(city_names)]
-        print(data)
         scores = data['XID'].apply(lambda x: vi[self.forward_transform[x]])
         data['score'] = scores
         return data
-
-
-model = Model()
-
-start_time = time.time()
-
-js = model.predict('Белая башня', 0)
-end_time = time.time()
-
-print(js)
-print(end_time - start_time)

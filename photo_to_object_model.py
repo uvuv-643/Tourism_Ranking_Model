@@ -128,7 +128,6 @@ class PhotoModel:
         self.transform = models.vision_transformer.ViT_L_16_Weights.IMAGENET1K_V1.transforms()
         self.model.heads = classifier
         self.model.load_state_dict(torch.load("models/photo_model.pt", map_location=device))
-        print("model loaded")
         self.model = self.model.to(device)
         self.model.eval()
         self.inverse_transform = {0: '1941-1945',

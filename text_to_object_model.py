@@ -195,7 +195,7 @@ class TextModel:
                          1: ['Нижний Новгород'],
                          2: ['Ярославль'], 3: ['Екатеринбург'], 4: ['Владимир']}
 
-        self.model.load_state_dict(torch.load("model3.pt", map_location=device))
+        self.model.load_state_dict(torch.load("models/text_model.pt", map_location=device))
         self.model = self.model.to(device)
         self.model.eval()
         self.find_XID = pd.read_csv('find_XID.csv')

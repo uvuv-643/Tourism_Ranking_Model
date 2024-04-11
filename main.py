@@ -51,7 +51,7 @@ def main():
                 predicted['result']['categories'] = predicted['result']['categories'][:9]
                 redis_connection.publish(f"text_response_{message_id}", json.dumps(predicted, ensure_ascii=False))
         except Exception as e:
-            raise e
+            logging.error("something went wrong", e)
 
         sleep(0.1)
 

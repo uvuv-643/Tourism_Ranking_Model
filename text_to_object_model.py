@@ -221,11 +221,12 @@ class TextModel:
         return nearest_places[['Lon', 'Lat']].values.tolist()
 
     def predict(self, text, city):
-        city = self.city_map[city]
+        select_city = {0: None, 1: 'Нижний Новгород', 2: 'Ярославль', 3: 'Екатеринбург', 4: 'Владимир'}
+        city = select_city[city]
         query = torch.tensor(self.get_prediction_embeding(text, city))
 
         prob = nn.Softmax(dim=0)(self.model(query)).squeeze().cpu()
-        data = self.get_topk(prob, city)
+        data = self.get_topk(prob, self.city_map[city_id])
         dist = self.get_dist(data)
         gen = self.generate(data.iloc[data['score'].argmax()])
         return {'result': {'categories': [{'label': label, 'prob': prob} for label, prob in dist.items()],

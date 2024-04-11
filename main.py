@@ -12,8 +12,8 @@ from text_to_object_model import TextModel
 
 def main():
 
-    text_model = TextModel()
-    print("Text model loaded")
+    # text_model = TextModel()
+    # print("Text model loaded")
     photo_model = PhotoModel()
     print("Photo model loaded")
 

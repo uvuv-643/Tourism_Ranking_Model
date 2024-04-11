@@ -7,6 +7,7 @@ def format_row(row):
             "lat": row["Lat"],
             "lng": row["Lon"]
         },
+        "city": row["City"],
         "prob": row["score"],
         "label": row["Name"],
         "categories": [row["Kind"]],

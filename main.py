@@ -7,13 +7,13 @@ import redis
 import torch
 
 from photo_to_object_model import PhotoModel
-# from text_to_object_model import TextModel
+from text_to_object_model import TextModel
 
 
 def main():
 
-    # text_model = TextModel()
-    # print("Text model loaded")
+    text_model = TextModel()
+    print("Text model loaded")
     photo_model = PhotoModel()
     print("Photo model loaded")
 
@@ -33,7 +33,7 @@ def main():
                 predicted = photo_model.predict(query)
                 predicted['categories'].sort(key=lambda x: x['prob'], reverse=True)
                 predicted['objects'].sort(key=lambda x: x['prob'], reverse=True)
-                predicted['categories'] = predicted['categories'][:10]
+                predicted['categories'] = predicted['categories'][:9]
                 redis_connection.publish(f"photo_response_{message_id}", json.dumps(predicted, ensure_ascii=False))
         except Exception as e:
             logging.error("something went wrong", e)

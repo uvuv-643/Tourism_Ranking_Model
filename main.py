@@ -45,7 +45,7 @@ def main():
                 message_id = json.loads(message_text['data'])['id']
                 query = json.loads(message_text['data'])['content']
                 city_id = json.loads(message_text['data'])['city_id']
-                predicted = photo_model.predict(query, int(city_id))
+                predicted = text_model.predict(query, int(city_id))
                 predicted['categories'].sort(key=lambda x: x['prob'], reverse=True)
                 predicted['objects'].sort(key=lambda x: x['prob'], reverse=True)
                 predicted['categories'] = predicted['categories'][:9]

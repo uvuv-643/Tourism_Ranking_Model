@@ -220,9 +220,9 @@ class TextModel:
 
         return nearest_places[['Lon', 'Lat']].values.tolist()
 
-    def predict(self, text, city):
+    def predict(self, text, city_id):
         select_city = {0: None, 1: 'Нижний Новгород', 2: 'Ярославль', 3: 'Екатеринбург', 4: 'Владимир'}
-        city = select_city[city]
+        city = select_city[city_id]
         query = torch.tensor(self.get_prediction_embeding(text, city))
 
         prob = nn.Softmax(dim=0)(self.model(query)).squeeze().cpu()

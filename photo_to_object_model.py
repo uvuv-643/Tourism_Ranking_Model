@@ -437,7 +437,7 @@ class PhotoModel:
         prob = nn.Softmax(dim=1)(self.model(image)).squeeze().cpu()
         data = self.get_topk(prob, city)
         dist = self.get_dist(data)
-        gen = self.generate(data.iloc[data['score'].argmax()])
+        gen = []#self.generate(data.iloc[data['score'].argmax()])
         return {'result': {'categories': [{'label': label, 'prob': prob} for label, prob in dist.items()],
                            'objects': json_from_pandas_to_main_format(
                                data.to_json(orient='records', force_ascii=False))},

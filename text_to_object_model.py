@@ -226,7 +226,7 @@ class TextModel:
         query = torch.tensor(self.get_prediction_embeding(text, city))
 
         prob = nn.Softmax(dim=0)(self.model(query)).squeeze().cpu()
-        data = self.get_topk(prob)
+        data = self.get_topk(prob, city)
         dist = self.get_dist(data)
         gen = self.generate(data.iloc[data['score'].argmax()])
         return {'result': {'categories': [{'label': label, 'prob': prob} for label, prob in dist.items()],
@@ -268,7 +268,7 @@ class TextModel:
             dist = {k: v / i for k, v in dist.items()}
         return dist
 
-    def get_topk(self, pred, k=15):
+    def get_topk(self, pred, city, k=15):
         v, i = torch.topk(pred, k)
         vi = {i: v for i, v in zip(i.detach().numpy(), v.detach().numpy())}
         city_names = [self.inverse_transform[ind] for ind in i.numpy()]

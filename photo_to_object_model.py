@@ -15,7 +15,7 @@ from utils import json_from_pandas_to_main_format
 
 class PhotoModel:
     def __init__(self, n_classes=290):
-        self.train_data = pd.read_excel('All_cities_photo.xlsx')
+        self.train_data = pd.read_excel('All_cities.xlsx')
         russian_kinds = {'accomodations': 'жилье',
                          'archaeological_museums': 'археологические музеи',
                          'archaeology': 'археология',
@@ -128,6 +128,7 @@ class PhotoModel:
         self.transform = models.vision_transformer.ViT_L_16_Weights.IMAGENET1K_V1.transforms()
         self.model.heads = classifier
         self.model.load_state_dict(torch.load("models/photo_model.pt", map_location=device))
+        print("model loaded")
         self.model = self.model.to(device)
         self.model.eval()
         self.inverse_transform = {0: '1941-1945',
@@ -421,18 +422,26 @@ class PhotoModel:
                                   288: '№32 Дом обороны',
                                   289: '№34 Дом контор'}
         self.forward_transform = {v: k for k, v in self.inverse_transform.items()}
+        self.city_map = {0: ['Нижний Новгород', 'Ярославль', 'Екатеринбург', 'Владимир'],
+                         1: ['Нижний Новгород'],
+                         2: ['Ярославль'], 3: ['Екатеринбург'], 4: ['Владимир']}
 
-    def predict(self, img):
+    def predict(self, img, city_id):
+        city = self.city_map[city_id]
+
         image_data = base64.decodebytes(bytes(str(img), encoding='utf-8'))
         image = Image.open(io.BytesIO(image_data)).convert("RGB")
         image = self.transform(image)
         image = image.unsqueeze(0)
 
         prob = nn.Softmax(dim=1)(self.model(image)).squeeze().cpu()
-        data = self.get_topk(prob)
+        data = self.get_topk(prob, city)
         dist = self.get_dist(data)
-        return {'categories': [{'label': label, 'prob': prob} for label, prob in dist.items()],
-              'objects': json_from_pandas_to_main_format(data.to_json(orient='records', force_ascii=False))}
+        gen = self.generate(data.iloc[data['score'].argmax()])
+        return {'result': {'categories': [{'label': label, 'prob': prob} for label, prob in dist.items()],
+                           'objects': json_from_pandas_to_main_format(
+                               data.to_json(orient='records', force_ascii=False))},
+                'route': gen}
 
     def get_dist(self, data):
         dist = {'жилье': 0, 'археологические музеи': 0, 'археология': 0, 'архитектура': 0, 'художественные галереи': 0,
@@ -467,11 +476,22 @@ class PhotoModel:
             dist = {k: v / i for k, v in dist.items()}
         return dist
 
-    def get_topk(self, pred, k=15):
+    def generate(self, root):
+        self.train_data['Manhattan_distance'] = abs(self.train_data['Lon'] - root['Lon']) + abs(
+            self.train_data['Lat'] - root['Lat'])
+        sorted_df = self.train_data.sort_values(by='Manhattan_distance')
+
+        nearest_places = sorted_df.iloc[:15]
+
+        return nearest_places[['Lon', 'Lat']].values.tolist()
+
+    def get_topk(self, pred, city, k=15):
         v, i = torch.topk(pred, k)
         vi = {i: v for i, v in zip(i.detach().numpy(), v.detach().numpy())}
         city_names = [self.inverse_transform[ind] for ind in i.numpy()]
-        data = self.train_data.loc[self.train_data.Name.isin(city_names)]
+        data = self.train_data.loc[self.train_data.Name.isin(city_names) & (self.train_data.City.isin(city))]
         scores = data['Name'].apply(lambda x: vi[self.forward_transform[x]])
         data['score'] = scores
         return data
+
+

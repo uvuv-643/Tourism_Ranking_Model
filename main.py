@@ -31,6 +31,8 @@ def main():
                 query = json.loads(message_photo['data'])['content']
                 city_id = json.loads(message_photo['data'])['city_id']
                 predicted = photo_model.predict(query)
+                predicted['categories'] = predicted['categories'].sort(key=lambda x: x['prob'], reverse=True)[:10]
+                predicted['objects'] = predicted['objects'].sort(key=lambda x: x['prob'], reverse=True)
                 redis_connection.publish(f"photo_response_{message_id}", json.dumps(predicted, ensure_ascii=False))
         except Exception as e:
             logging.error("something went wrong", e)

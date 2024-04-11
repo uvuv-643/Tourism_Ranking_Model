@@ -7,3 +7,5 @@ annoy
 scipy
 numpy
 pandas
+Pillow
+joblib

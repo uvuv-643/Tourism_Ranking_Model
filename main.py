@@ -4,14 +4,18 @@ import os
 from time import sleep
 import dotenv
 import redis
+import torch
 
+from photo_to_object_model import PhotoModel
 from text_to_object_model import TextModel
 
 
 def main():
 
     text_model = TextModel()
-    print("Model loaded")
+    print("Text model loaded")
+    photo_model = PhotoModel()
+    print("Photo model loaded")
 
     dotenv.load_dotenv()
     redis_connection = redis.Redis(host=os.getenv('REDIS_HOST'), port=6379, db=0, password=os.getenv('REDIS_PASSWORD'))
@@ -24,7 +28,10 @@ def main():
             message_photo = redis_pubsub_photos.get_message(ignore_subscribe_messages=True)
             if message_photo is not None and message_photo['data']:
                 message_id = json.loads(message_photo['data'])['id']
-                redis_connection.publish(f"photo_response_{message_id}", "yooou)")
+                query = json.loads(message_photo['data'])['content']
+                city_id = json.loads(message_photo['data'])['city_id']
+                predicted = photo_model.predict(query)
+                redis_connection.publish(f"photo_response_{message_id}", json.dumps(predicted, ensure_ascii=False))
         except Exception as e:
             logging.error("something went wrong", e)
 

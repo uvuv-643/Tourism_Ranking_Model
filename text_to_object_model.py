@@ -162,6 +162,7 @@
 #         scores = data['XID'].apply(lambda x: vi[self.forward_transform[x]])
 #         data['score'] = scores
 #         return data
+import logging
 
 from sentence_transformers import SentenceTransformer
 from torch import nn
@@ -276,4 +277,5 @@ class TextModel:
         scores = data['XID'].apply(lambda x: vi[self.forward_transform[x]])
         data['score'] = scores
         data = data.sort_values(by='score').loc[::-1]
+        logging.warning('data', data)
         return data

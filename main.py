@@ -36,6 +36,7 @@ def main():
                 redis_connection.publish(f"photo_response_{message_id}", json.dumps(predicted, ensure_ascii=False))
         except Exception as e:
             logging.error("something went wrong", e)
+            raise e
 
         try:
             message_text = redis_pubsub_texts.get_message(ignore_subscribe_messages=True)

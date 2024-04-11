@@ -77,7 +77,7 @@ import json
 from utils import json_from_pandas_to_main_format
 
 
-class Model:
+class TextModel:
     def __init__(self, n_classes=371):
         self.train_data = pd.read_csv('All_cities_super_final_version.csv')
         device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')

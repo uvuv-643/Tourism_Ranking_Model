@@ -10,6 +10,8 @@ from joblib import dump, load
 import pandas as pd
 import json
 
+from utils import json_from_pandas_to_main_format
+
 
 class PhotoModel:
     def __init__(self, n_classes=290):
@@ -431,9 +433,8 @@ class PhotoModel:
         data = self.get_topk(prob)
         dist = self.get_dist(data)
         # print()
-        js = {'categories': [{'label': label, prob: prob} for label, prob in dist.items()],
-              'objects': data.to_json(orient='records', force_ascii=False, lines=True)}
-        return json.dumps(js)
+        return {'categories': [{'label': label, prob: prob} for label, prob in dist.items()],
+              'objects': json_from_pandas_to_main_format(data.to_json(orient='records', force_ascii=False))}
 
     def get_dist(self, data):
         dist = {'жилье': 0, 'археологические музеи': 0, 'археология': 0, 'архитектура': 0, 'художественные галереи': 0,

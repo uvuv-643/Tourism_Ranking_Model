@@ -269,10 +269,19 @@ class TextModel:
         return dist
 
     def get_topk(self, pred, city, k=15):
+
         v, i = torch.topk(pred, k)
         vi = {i: v for i, v in zip(i.detach().numpy(), v.detach().numpy())}
         city_names = [self.inverse_transform[ind] for ind in i.numpy()]
-        data = self.train_data.loc[self.train_data.XID.isin(city_names)] & (self.train_data.City.isin(city))
+        data = self.train_data.loc[self.train_data.Name.isin(city_names) & (self.train_data.City.isin(city))]
+        scores = data['Name'].apply(lambda x: vi[self.forward_transform[x]])
+        data['score'] = scores
+        return data
+
+        v, i = torch.topk(pred, k)
+        vi = {i: v for i, v in zip(i.detach().numpy(), v.detach().numpy())}
+        city_names = [self.inverse_transform[ind] for ind in i.numpy()]
+        data = (self.train_data.loc[self.train_data.XID.isin(city_names)]) & (self.train_data.City.isin(city))
         scores = data['XID'].apply(lambda x: vi[self.forward_transform[x]])
         data['score'] = scores
         data = data.sort_values(by='score').loc[::-1]

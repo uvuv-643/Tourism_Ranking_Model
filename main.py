@@ -7,7 +7,7 @@ import redis
 import torch
 
 from photo_to_object_model import PhotoModel
-from text_to_object_model import TextModel
+# from text_to_object_model import TextModel
 
 
 def main():
